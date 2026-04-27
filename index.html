@@ -1,0 +1,70 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family City Hotel Room Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="overlay">
+      <h1>Family City Hotel Reservation</h1>
+      <p>Elegant Room Management System</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Daftar Kamar Hotel</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>No. Kamar</th>
+          <th>Foto Kamar</th>
+          <th>Tipe Kamar</th>
+          <th>Harga / Malam</th>
+          <th>Lantai</th>
+          <th>Status</th>
+          <th>Detail</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>301</td>
+          <td><img src="images/standard-room.jpg" alt="Standard Room" class="room-thumb"></td>
+          <td>Standard</td>
+          <td>Rp500.000</td>
+          <td>3</td>
+          <td><span class="status available">Available</span></td>
+          <td><a href="detail-standard.html" class="btn-detail">View</a></td>
+        </tr>
+
+        <tr>
+          <td>405</td>
+          <td><img src="images/deluxe-room.jpg" alt="Deluxe Room" class="room-thumb"></td>
+          <td>Deluxe</td>
+          <td>Rp850.000</td>
+          <td>4</td>
+          <td><span class="status occupied">Occupied</span></td>
+          <td><a href="detail-deluxe.html" class="btn-detail">View</a></td>
+        </tr>
+
+        <tr>
+          <td>607</td>
+          <td><img src="images/suite-room.jpg" alt="Suite Room" class="room-thumb"></td>
+          <td>Suite</td>
+          <td>Rp1.500.000</td>
+          <td>6</td>
+          <td><span class="status maintenance">Maintenance</span></td>
+          <td><a href="detail-suite.html" class="btn-detail">View</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+</body>
+</html>
